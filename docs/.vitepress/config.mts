@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-
+const base = "/personSite/";
 export default defineConfig({
-  base:"/personSite/",
+  base,
   title: "redblacktree's site",
   description: "A VitePress Site",
   themeConfig: {
