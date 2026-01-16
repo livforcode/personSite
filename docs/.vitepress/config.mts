@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 
 const base = "/personSite/"; 
 export default defineConfig({
-  base,
+  // base,
   title: "redblacktree's site",
   description: "A VitePress Site",
   themeConfig: {
