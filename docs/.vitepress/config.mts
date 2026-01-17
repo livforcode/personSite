@@ -8,7 +8,7 @@ export default defineConfig({
   title: "redblacktree's site",
   description: "A VitePress Site",
   srcDir: "./src",
-  base:'/personSite/',
+  // base:'/personSite/',
   
   themeConfig: {
     logo: "/logo.svg",
