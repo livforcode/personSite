@@ -2,7 +2,7 @@
 
 ![](https://imgstroe-redblacktree.oss-accelerate.aliyuncs.com/img/20260319045703627.png)
 
-我第一次使用docker是在拉了一个mysql的镜像，部署到自己的Linux服务器中，相较于以往需要配置各种mysql，而且容易出现卸载mysql后配置文件删除不干净，影响下次按安装。docker真是太方便了，配置好docker文件，然后注意暴露端口，就跟安装手机软件一样傻瓜式，而且不担心跨服务器，所需的代价仅仅是略微的性能损失和稍大一些的内存。（但是注意，mysql放在docker实例中时，是需要将数据库存储文件挂载出dockers的，不然docker实例关闭后，数据是会被释放丢失的）
+我第一次使用docker是在拉了一个mysql的镜像，部署到自己的Linux服务器中，相较于以往需要配置各种mysql，而且容易出现卸载mysql后配置文件删除不干净，影响下次按安装。docker真是太方便了，配置好docker文件，然后注意暴露端口，就跟安装手机软件一样傻瓜式，而且不担心跨服务器，所需的代价仅仅是略微的性能损失和稍大一些的内存。（但是注意，mysql放在docker实例中时，是需要将数据库存储文件挂载出dockers的，不然docker实例删除后，数据是会被释放丢失的）
 
 ## docker与操作系统
 
